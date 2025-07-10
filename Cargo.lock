@@ -5476,6 +5476,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "raydium-launchpad-logger"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "carbon-core",
+ "carbon-log-metrics",
+ "carbon-raydium-launchpad-decoder",
+ "carbon-yellowstone-grpc-datasource",
+ "dotenv",
+ "env_logger 0.11.8",
+ "log",
+ "rustls 0.23.27",
+ "serde_json",
+ "solana-instruction",
+ "tokio",
+ "yellowstone-grpc-proto",
+]
+
+[[package]]
 name = "rayon"
 version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
